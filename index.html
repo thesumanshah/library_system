@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Library Management System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/book-logo.png" alt="Library Logo" class="logo">
+                Online Library Management System
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">Sign Up</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Academic Resource Center</h1>
+                <p class="lead mb-4">Supporting Excellence in Education</p>
+                <div class="d-flex gap-3 justify-content-center">
+                    <a href="register.html" class="btn btn-lg btn-primary px-4 py-2">
+                        <i class="bi bi-person-add me-2"></i>Join Now
+                    </a>
+                    <a href="#collections" class="btn btn-lg btn-outline-light px-4 py-2">
+                        <i class="bi bi-search me-2"></i>Explore
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Books Section -->
+    <section id="collections" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Featured Academic Resources</h2>
+            <div class="row g-4">
+                <!-- Business -->
+                <div class="col-md-4 col-lg-3">
+                    <div class="book-card">
+                        <img src="https://source.unsplash.com/random/600x800?business,book" class="book-image" alt="Business Resources">
+                        <div class="p-3">
+                            <h5 class="mb-1">Business Strategy</h5>
+                            <small class="text-muted">MBA Core Collection</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Information Technology -->
+                <div class="col-md-4 col-lg-3">
+                    <div class="book-card">
+                        <img src="https://source.unsplash.com/random/600x800?programming,book" class="book-image" alt="IT Resources">
+                        <div class="p-3">
+                            <h5 class="mb-1">Software Development</h5>
+                            <small class="text-muted">Computer Science</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Health Sciences -->
+                <div class="col-md-4 col-lg-3">
+                    <div class="book-card">
+                        <img src="https://source.unsplash.com/random/600x800?medical,book" class="book-image" alt="Health Sciences">
+                        <div class="p-3">
+                            <h5 class="mb-1">Clinical Practice</h5>
+                            <small class="text-muted">Health Sciences</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Research Methods -->
+                <div class="col-md-4 col-lg-3">
+                    <div class="book-card">
+                        <img src="https://source.unsplash.com/random/600x800?research,book" class="book-image" alt="Research Methods">
+                        <div class="p-3">
+                            <h5 class="mb-1">Academic Research</h5>
+                            <small class="text-muted">Methodology Guides</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Books -->
+                <div class="col-md-4 col-lg-3">
+                    <div class="book-card">
+                        <img src="https://source.unsplash.com/random/600x800?economics,book" class="book-image" alt="Economics">
+                        <div class="p-3">
+                            <h5 class="mb-1">Economic Theory</h5>
+                            <small class="text-muted">Advanced Studies</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="book-card">
+                        <img src="https://source.unsplash.com/random/600x800?nursing,book" class="book-image" alt="Nursing">
+                        <div class="p-3">
+                            <h5 class="mb-1">Nursing Practice</h5>
+                            <small class="text-muted">Healthcare Guides</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="book-card">
+                        <img src="https://source.unsplash.com/random/600x800?data-science,book" class="book-image" alt="Data Science">
+                        <div class="p-3">
+                            <h5 class="mb-1">Data Analytics</h5>
+                            <small class="text-muted">IT Specialization</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="book-card">
+                        <img src="https://source.unsplash.com/random/600x800?leadership,book" class="book-image" alt="Leadership">
+                        <div class="p-3">
+                            <h5 class="mb-1">Leadership Studies</h5>
+                            <small class="text-muted">Management Series</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 Online Library Management System. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
